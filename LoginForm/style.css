@@ -76,12 +76,13 @@ input[type="password"] {
     color: #000;
 }
 
-.loginbox a{
+.loginbox a {
     text-decoration: none;
     font-size: 12px;
     line-height: 20px;
     color: darkgrey;
 }
-.loginbox a:hover{
+
+.loginbox a:hover {
     color: #ffc107;
 }
