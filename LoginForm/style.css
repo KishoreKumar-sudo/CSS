@@ -3,7 +3,8 @@ body{
     padding: 0;
     background: url('./Images/BeachView.jpg');
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
     font-family: sans-serif;
+    box-sizing: border-box;
     /* background-repeat: no-repeat; */
 }
