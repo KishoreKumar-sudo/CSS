@@ -87,3 +87,7 @@ body {
     transition: 0.5s;
     pointer-events: none;
 }
+.box form .inputbox input:valid~i,
+.box form .inputbox input:focus~i{
+    height: 44px;
+}
