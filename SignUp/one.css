@@ -13,7 +13,6 @@ body {
     align-items: center;
     min-height: 100vh;
     background: #23242a;
-    overflow: hidden;
 }
 
 .box {
@@ -22,9 +21,10 @@ body {
     height: 420px;
     background: #1c1c1c;
     border-radius: 8px;
+    overflow: hidden;
 }
 
-.box ::before {
+.box::before {
     content: '';
     position: absolute;
     top: -50%;
@@ -36,7 +36,7 @@ body {
     transform-origin: bottom-right;
     animation: animate 6s linear infinite;
 }
-.box ::after{
+.box::after{
     content: '';
     position: absolute;
     top: -50%;
@@ -54,7 +54,7 @@ body {
     top: 0;
     inset: 0;
 }
-.borderline ::before{
+.borderline::before{
     content: '';
     position: absolute;
     top: -50%;
@@ -67,7 +67,7 @@ body {
     animation: animate 6s linear infinite;
     animation-delay: -1.5s;
 }
-.borderline ::after{
+.borderline::after{
     content: '';
     position: absolute;
     top: -50%;
@@ -138,7 +138,8 @@ body {
     transition: 0.5s;
 }
 
-.box form .inputbox input:valid~span .box form .inputbox input:focus~span {
+.box form .inputbox input:valid~span 
+.box form .inputbox input:focus~span {
     color: #fff;
     font-size: 0.75em;
     transform: translateY(-34px);
