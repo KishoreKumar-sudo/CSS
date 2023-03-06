@@ -36,7 +36,8 @@ body {
     transform-origin: bottom-right;
     animation: animate 6s linear infinite;
 }
-.box::after{
+
+.box::after {
     content: '';
     position: absolute;
     top: -50%;
@@ -49,12 +50,14 @@ body {
     animation: animate 6s linear infinite;
     animation-delay: -3s;
 }
-.borderline{
+
+.borderline {
     position: absolute;
     top: 0;
     inset: 0;
 }
-.borderline::before{
+
+.borderline::before {
     content: '';
     position: absolute;
     top: -50%;
@@ -67,7 +70,8 @@ body {
     animation: animate 6s linear infinite;
     animation-delay: -1.5s;
 }
-.borderline::after{
+
+.borderline::after {
     content: '';
     position: absolute;
     top: -50%;
@@ -80,18 +84,20 @@ body {
     animation: animate 6s linear infinite;
     animation-delay: -4.5s;
 }
-@keyframes animate{
-    0%
-    {
+
+@keyframes animate {
+    0% {
         transform: rotate(0deg);
     }
-    100%{
+
+    100% {
         transform: rotate(360deg);
     }
 }
+
 .box form {
     position: absolute;
-    inset: 4px; 
+    inset: 4px;
     background-color: #222;
     padding: 50px 40px;
     border-radius: 8px;
@@ -139,8 +145,7 @@ body {
     transition: 0.5s;
 }
 
-.box form .inputbox input:valid ~ span 
-.box form .inputbox input:focus ~ span {
+.box form .inputbox input:valid~span .box form .inputbox input:focus~span {
     color: #fff;
     font-size: 0.75em;
     transform: translateY(-34px);
@@ -159,8 +164,8 @@ body {
     pointer-events: none;
 }
 
-.box form .inputbox input:valid ~ i,
-.box form .inputbox input:focus ~ i {
+.box form .inputbox input:valid~i,
+.box form .inputbox input:focus~i {
     height: 44px;
 }
 
@@ -177,8 +182,7 @@ body {
 }
 
 .box form .links a:hover,
-.box form .links a:nth-child(2) 
-{
+.box form .links a:nth-child(2) {
     color: #fff;
 }
 
