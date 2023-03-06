@@ -13,6 +13,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background: #23242a;
+    overflow: hidden;
 }
 
 .box {
@@ -60,7 +61,7 @@ body {
     left: -50%;
     width: 380px;
     height: 420px;
-    background: linear-gradient(0deg, transparent, transparent, #45f3ff, #45f3ff, #45f3ff);
+    background: linear-gradient(0deg, transparent, transparent, #ff2770, #ff2770, #ff2770);
     z-index: 1;
     transform-origin: bottom-right;
     animation: animate 6s linear infinite;
@@ -73,7 +74,7 @@ body {
     left: -50%;
     width: 380px;
     height: 420px;
-    background: linear-gradient(0deg, transparent, transparent, #45f3ff, #45f3ff, #45f3ff);
+    background: linear-gradient(0deg, transparent, transparent, #ff2770, #ff2770, #ff2770);
     z-index: 1;
     transform-origin: bottom-right;
     animation: animate 6s linear infinite;
