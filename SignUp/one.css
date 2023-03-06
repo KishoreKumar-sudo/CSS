@@ -76,7 +76,7 @@ body {
     height: 420px;
     background: linear-gradient(0deg, transparent, transparent, #ff2770, #ff2770, #ff2770);
     z-index: 1;
-    transform-origin: bottom-right;
+    transform-origin: bottom right;
     animation: animate 6s linear infinite;
     animation-delay: -4.5s;
 }
