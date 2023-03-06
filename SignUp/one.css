@@ -138,8 +138,8 @@ body {
     transition: 0.5s;
 }
 
-.box form .inputbox input:valid~span 
-.box form .inputbox input:focus~span {
+.box form .inputbox input:valid ~ span 
+.box form .inputbox input:focus ~ span {
     color: #fff;
     font-size: 0.75em;
     transform: translateY(-34px);
@@ -158,8 +158,8 @@ body {
     pointer-events: none;
 }
 
-.box form .inputbox input:valid~i,
-.box form .inputbox input:focus~i {
+.box form .inputbox input:valid ~ i,
+.box form .inputbox input:focus ~ i {
     height: 44px;
 }
 
