@@ -23,9 +23,22 @@ body {
     border-radius: 8px;
 }
 
+.box ::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg, transparent, transparent, #45f3ff, #45f3ff, #45f3ff);
+    z-index: 1;
+    transform-origin: bottom-right;
+    animation: animate 6s linear infinite;
+}
+
 .box form {
     position: absolute;
-    inset: 4px;
+    inset: 4px; 
     background-color: #222;
     padding: 50px 40px;
     border-radius: 8px;
@@ -45,7 +58,8 @@ body {
     width: 300px;
     margin-top: 35px;
 }
-.box form .inputbox input{
+
+.box form .inputbox input {
     position: relative;
     width: 100%;
     padding: 20px 10px 10px;
@@ -59,7 +73,8 @@ body {
     transition: 0.5s;
     z-index: 10;
 }
-.box form .inputbox span{
+
+.box form .inputbox span {
     position: absolute;
     left: 0;
     padding: 20px 0px 10px;
@@ -69,13 +84,14 @@ body {
     letter-spacing: 0.05em;
     transition: 0.5s;
 }
-.box form .inputbox input:valid~span
-.box form .inputbox input:focus~span{
+
+.box form .inputbox input:valid~span .box form .inputbox input:focus~span {
     color: #fff;
     font-size: 0.75em;
     transform: translateY(-34px);
 }
-.box form .inputbox i{
+
+.box form .inputbox i {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -87,25 +103,30 @@ body {
     transition: 0.5s;
     pointer-events: none;
 }
+
 .box form .inputbox input:valid~i,
-.box form .inputbox input:focus~i{
+.box form .inputbox input:focus~i {
     height: 44px;
 }
-.box form .links{
+
+.box form .links {
     display: flex;
     justify-content: space-between;
 }
+
 .box form .links a {
     margin: 10px 0;
     font-size: 0.75em;
     color: #8f8f8f;
     text-decoration: none;
 }
+
 .box form .links a:hover,
-.box form .links a:nth-child(2){
+.box form .links a:nth-child(2) {
     color: #fff;
 }
-.box form input[type="submit"]{
+
+.box form input[type="submit"] {
     border: none;
     outline: none;
     padding: 9px 25px;
@@ -117,6 +138,7 @@ body {
     width: 100px;
     margin-top: 10px;
 }
-.box form input[type="submit"]:active{
+
+.box form input[type="submit"]:active {
     opacity: 0.8;
 }
