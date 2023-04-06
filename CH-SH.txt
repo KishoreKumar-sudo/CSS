@@ -41,3 +41,9 @@ pp has 1 values:
    padding: 25px;
 
 all four paddings are 25px
+
+Use the padding shorthand property with one value: 
+
+div {
+  padding: 25px;
+}
