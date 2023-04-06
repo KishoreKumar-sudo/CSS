@@ -1,10 +1,10 @@
 If the padding property(pp) has 4 values:
     padding: 25px 50px 75px 100px;
 
-	top padding is 25px
-	right padding is 50px
-  	botom padding is 75px
-	left padding is 100px
+top padding is 25px
+right padding is 50px
+botom padding is 75px
+left padding is 100px
 
 Use the padding shorthand property with four values:
 
@@ -15,9 +15,9 @@ div {
 pp has 3 values:
     padding: 25px 50px 75px;
 
-	top padding is 25px
-	right and left paddings are 50px
-	bottom padding is 75px
+top padding is 25px
+right and left paddings are 50px
+bottom padding is 75px
 
 Use the padding shorthand property with three values: 
 
@@ -36,3 +36,8 @@ Use the padding shorthand property with two values:
 div {
   padding: 25px 50px;
 }
+
+pp has 1 values:
+   padding: 25px;
+
+all four paddings are 25px
