@@ -27,3 +27,6 @@ div {
 
 pp has 2 values:
    padding: 25px 50px;
+
+   top and bottom paddings are 25px
+   right and left paddings are 50px
