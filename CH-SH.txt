@@ -14,7 +14,13 @@ div {
 
 pp has 3 values:
     padding: 25px 50px 75px;
-    
+
 	top padding is 25px
 	right and left paddings are 50px
 	bottom padding is 75px
+
+Use the padding shorthand property with three values: 
+
+div {
+  padding: 25px 50px 75px;
+}
