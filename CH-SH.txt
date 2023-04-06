@@ -6,4 +6,8 @@ If the padding property(pp) has 4 values:
   	botom padding is 75px
 	left padding is 100px
 
-    
+Use the padding shorthand property with four values:
+
+div {
+  padding: 25px 50px 75px 100px;
+}
