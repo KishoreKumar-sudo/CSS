@@ -30,3 +30,9 @@ pp has 2 values:
 
    top and bottom paddings are 25px
    right and left paddings are 50px
+
+Use the padding shorthand property with two values: 
+
+div {
+  padding: 25px 50px;
+}
